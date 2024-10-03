@@ -1,7 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-<style>
-    text{font-family:Helvitica, Arial, sans-serif;}
-</style>
-<path d="M21.34,59.41V39.73h2c4.67,0,7.26,3.07,7.26,6.4v9l3,3.2V18c0-3.32,2-5.41,4.67-5.41s4.55,2.09,4.55,5.41V49.45h2.83V11.69c0-3.2,1.85-5.29,4.68-5.29,2.46,0,4.42,2.09,4.42,5.29V49.45H57.5V16.24C57.5,13,59.59,11,62.3,11c2.46,0,4.43,2.09,4.43,5.29L66.6,49.45h2.83V21.4c0-3.32,2.22-5.29,4.43-5.29a4.94,4.94,0,0,1,4.8,5.29l-.25,41.45C78.29,83.52,67.47,93.6,50.74,93.6,32.9,93.6,21.34,80.44,21.34,59.41Z"></path>
-<text text-anchor="middle" x="53" y="75" fill="white" font-size="15">PARE</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 63.68 87.2">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .71px;
+      }
+
+      .cls-4 {
+        font-size: 4px;
+      }
+
+      .cls-4, .cls-2 {
+        font-family: Helvetica, Helvetica;
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        font-size: 15px;
+      }
+
+      #esta:hover{ fill:#903d47; }
+    </style>
+    <text text-anchor="middle" x="53" y="75" fill="white" font-size="15">PARE</text>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa_1">
+    <path id="esta" d="M6.34,53.01v-19.68h2c4.67,0,7.26,3.07,7.26,6.4v9l3,3.2V11.6c0-3.32,2-5.41,4.67-5.41s4.55,2.09,4.55,5.41v31.45h2.83V5.29c0-3.2,1.85-5.29,4.68-5.29,2.46,0,4.42,2.09,4.42,5.29v37.76h2.75V9.84c0-3.24,2.09-5.24,4.8-5.24,2.46,0,4.43,2.09,4.43,5.29l-.13,33.16h2.83V15c0-3.32,2.22-5.29,4.43-5.29,2.73.07,4.88,2.34,4.81,5.07,0,.07,0,.15-.01.22l-.25,41.45c-.12,20.67-10.94,30.75-27.67,30.75-17.84,0-29.4-13.16-29.4-34.19Z"/>
+    <text class="cls-2" transform="translate(17.58 68.6)"><tspan x="0" y="0">PARE</tspan></text>
+    <text class="cls-4" transform="translate(0 18.6)"><tspan x="0" y="0">mano</tspan></text>
+    <g>
+      <path class="cls-1" d="M.91,19.76c8.06,1,12.05,5.87,15.1,11.64"/>
+      <g>
+        <path class="cls-3" d="M.91,19.76c7.35.92,11.32,5.04,14.27,10.13"/>
+        <polygon points="11.59 27.85 11.97 27.37 15.08 29.87 14.3 25.96 14.9 25.84 16 31.4 11.59 27.85"/>
+      </g>
+    </g>
+  </g>
 </svg>
