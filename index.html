@@ -126,7 +126,7 @@
 
                     <p>También puede ser incluido como si se tratara de una imagen rasterizada (<code>img</code>), a la que se va a buscar como recurso (<code>src</code>). El problema es que al tratarla de tal forma ya no hay ninguna descripción de gráfica que se pueda aprovechar:</p>
 
-                    <img src="img/alto.svg"  class="w-100 shadow-sm"/>
+                    <img src="img/alto.svg" class="w-100"/>
 
                     <p>Las descripciones perdidas son también textos perdidos: ¡Ya no son seleccionables ni legibles para un buscador! Tal como los textos en las imágenes y videos para el carrusel en Instagram.</p>
 
@@ -134,19 +134,22 @@
 
                     <p>A propósito de poner allí una rasterizada, SVG también nos entrega la posibilidad colocar dentro suyo un JPG, PNG o WebP, lo que nos permite trabajar de mejor manera con los pesos de los archivos: ¡No tenemos que trazar con varita mágica la imagen rasterizada para luego sumar textos, líneas y otros elementos gráficos vectorizados sobre ella! Basta con incrustarla.</p>
 
-                    <object data="img/grafico_ancho.svg" type="image/svg+xml" class="d-none d-lg-block" "></object>
-                    <object data="img/grafico_angosto.svg" type="image/svg+xml" class="d-none d-lg-block" "></object>
+                    <object data="img/grafico-ancha.svg" type="image/svg+xml" class="d-none d-lg-block"></object>
 
-                    <div id="carouselExample" class="carousel slide">
+                     <object data="img/grafico-angosta.svg" type="image/svg+xml" class="d-lg-none"></object>
+
+ <h3>Explicar que sigue</h3>                     
+
+                     <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img/lateral_der.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img/frontal.png" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="img/lateral_izq.png" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -159,6 +162,19 @@
   </button>
 </div>
 
+<p>es la pa de párrafo en inglés.</p>
+
+<h3>y aqui tambien</h3> 
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<title>57_Authority_bdg_v15</title>
+
+<clipPath id="esto">
+<path d="M90.34,58.24v6.89H9.66V58.24L25,53.81V5.6h7.75v46l16.48-4.68ZM84,88.62h6.39v5.91H9.66V88.62h6v-18H30.32v18H42.5v-18H57.13v18H69.31v-18H84ZM55.66,35.24h-18V5.47H63.53L69.19,11H88.38V40.78H61.32Z"></path>
+</clipPath>
+<image height="100%" width= "100%" preserveAspectRatio="xMinYMin slice" href="truco.png" clip-path="url(#esto)" />
+</svg>
+
 
                 </article>
             </main>
@@ -170,7 +186,8 @@
             <small>Lindsay Osorio © 2024. Diplomado de Infografía UC.</small>
         </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
         <script>
             const vinculos = document.querySelectorAll("a");
